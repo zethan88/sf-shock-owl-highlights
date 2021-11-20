@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #FC4C02;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #FC4C02 15%, #75787B 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #FC4C02 15%, #75787B 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #FC4C02 15%, #75787B 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #FC4C02 15%, #75787B 85%);
+		background-color: #75787B;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #000000 15%, #75787B 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #000000 15%, #75787B 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #000000 15%, #75787B 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #000000 15%, #75787B 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #FC4C02;
+		background-color: #75787B;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -1804,8 +1804,7 @@ input, select, textarea {
 	.box {
 		border-radius: 8px;
 		border: solid;
-		margin-bottom: 2em;
-		padding: 1.5em;
+		margin-bottom: -2em;
 	}
 
 		.box > :last-child,
@@ -3546,10 +3545,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #FC4C02, #75787B, #000000);
+			background-image: -webkit-linear-gradient(90deg, #FC4C02, #75787B, #000000);
+			background-image: -ms-linear-gradient(90deg, #FC4C02, #75787B, #000000);
+			background-image: linear-gradient(90deg, #FC4C02, #75787B, #000000);
 		}
 
 		#main table tbody tr {
