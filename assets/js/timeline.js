@@ -1,5 +1,5 @@
 const margin = {top: 100, right: 30, bottom: 100, left: 30},
-    width = 1200 - margin.left - margin.right,
+    width = 1000 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
 const svg = d3.select("#timeline")
