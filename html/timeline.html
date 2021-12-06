@@ -4,6 +4,20 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<style>
+    div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 100px;
+        height: 120px;
+        padding: 2px;
+        background: gray;
+        border: 0px;
+        border-radius: 8px;
+        pointer-events: none;
+        font-size: 12px;
+    }
+</style>
 <html>
 <head>
     <title>Regular & Playoff Season Record Timeline</title>
@@ -20,7 +34,6 @@
     <!-- Header -->
     <header id="header">
         <h1>Regular & Playoff Season Record Timeline</h1>
-        <p>2019 San Francisco Shock Regular & Playoff Season Record In a Timeline</p>
     </header>
 
     <!-- Main -->
@@ -28,27 +41,33 @@
 
         <!-- Content -->
         <section id="content" class="main">
-            <span class="image main"><img src="../images/shock_wave.jpg" alt="" /></span>
-            <h2>Playoff Record Timeline</h2>
+            <h2>2019 San Francisco Shock Regular & Playoff Season Record In a Timeline</h2>
+            <span class="image main"><div id="timeline" class="align-center"></div></span>
             <p>
-                Below shows the 2019 San Francisco Shock's Regular & Playoff Season Timeline.
+                Above displays the 2019 San Francisco Shock's Regular & Playoff Season Timeline.
+                The San Francisco Shock represented in their signature orange themed color and the
+                enemy teams represented in gray as their competing teams. The timeline is interactive
+                to hover each bar that reveals more information about the date of the match,
+                their opponent, and the outcome of the match in favor of the San Francisco Shock
+                point of view. As seen, the San Francisco Shock blew the competition throughout the season.
+                Due to their strong starting roster lineup and the GOATS meta,
+                the San Francisco Shock became the leading team in dominating this meta.
+                With a majority of their games played ending in a 4 - 0 record. Some matches
+                were close, but in the end, the San Francisco Shock came out on top. Entering the playoffs
+                and grand finals with role lock introduced, the San Francisco Shock still exuded excellent
+                performances and domination over the competition.
             </p>
         </section>
 
     </div>
 
     <!-- Footer -->
+    <div style="margin: 20px">
+        <ul class="actions special">
+            <li><a href="../index.html" class="icon solid fa-home alt"><span class="label">Home Page</span></a></li>
+        </ul>
+    </div>
     <footer id="footer">
-        <section>
-            <ul class="actions special">
-                <li><a href="../index.html" class="button">Back to Home Page</a></li>
-            </ul>
-            <h2>Project Documents</h2>
-            <ul class="actions">
-                <li><a href="../documents/Project%20Proposal%20-%20Ethan%20Zhou.pdf" class="button">Project Proposal</a></li>
-                <li><a href="../documents/Alpha%20Release%20Report%20-%20Ethan%20Zhou.pdf" class="button">Alpha Release</a></li>
-            </ul>
-        </section>
         <section>
             <h2>Created By Ethan Zhou</h2>
             <dl class="alt">
@@ -64,6 +83,13 @@
                 <li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
             </ul>
         </section>
+        <section>
+            <h2>Project Documents</h2>
+            <ul class="actions">
+                <li><a href="../documents/Project%20Proposal%20-%20Ethan%20Zhou.pdf" class="button">Project Proposal</a></li>
+                <li><a href="../documents/Alpha%20Release%20Report%20-%20Ethan%20Zhou.pdf" class="button">Alpha Release</a></li>
+            </ul>
+        </section>
         <p class="copyright">&copy; Design By: <a href="https://html5up.net">HTML5 UP</a>.</p>
     </footer>
 
@@ -77,6 +103,10 @@
 <script src="../assets/js/breakpoints.min.js"></script>
 <script src="../assets/js/util.js"></script>
 <script src="../assets/js/main.js"></script>
+<!-- SVG scripts -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.13.0/d3-legend.js"></script>
+<script src="../assets/js/timeline.js"></script>
 
 </body>
 </html>

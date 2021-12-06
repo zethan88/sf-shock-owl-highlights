@@ -11,5 +11,6 @@
     <orderEntry type="library" name="d3-legend" level="application" />
     <orderEntry type="library" name="d3-scale-chromatic.v1" level="application" />
     <orderEntry type="library" name="d3.v7" level="application" />
+    <orderEntry type="library" name="d3" level="application" />
   </component>
 </module>

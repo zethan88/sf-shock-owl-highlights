@@ -1805,6 +1805,8 @@ input, select, textarea {
 		border-radius: 8px;
 		border: solid;
 		margin-bottom: -2em;
+		margin-right: 10px;
+		margin-left: 10px;
 	}
 
 		.box > :last-child,

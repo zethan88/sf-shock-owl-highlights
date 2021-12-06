@@ -1,0 +1,258 @@
+start_time,map_type,map_name,player,team,stat_name,stat_amount
+9/8/2019 4:30,PAYLOAD,Watchpoint: Gibraltar,Architect,San Francisco Shock,All Damage Done,51521.76949
+9/13/2019 1:11,CONTROL,Busan,Architect,San Francisco Shock,All Damage Done,17641.78478
+9/13/2019 2:29,PAYLOAD,Rialto,Architect,San Francisco Shock,All Damage Done,51511.69562
+9/14/2019 20:41,PAYLOAD,Dorado,Architect,San Francisco Shock,All Damage Done,67192.80313
+9/15/2019 20:45,PAYLOAD,Rialto,Architect,San Francisco Shock,All Damage Done,44499.78705
+9/29/2019 19:32,HYBRID,Eichenwalde,Architect,San Francisco Shock,All Damage Done,54100.70343
+9/29/2019 20:47,PAYLOAD,Watchpoint: Gibraltar,Architect,San Francisco Shock,All Damage Done,52168.00878
+9/7/2019 1:15,CONTROL,Busan,Choihyobin,San Francisco Shock,All Damage Done,28726.77534
+9/7/2019 1:35,HYBRID,Numbani,Choihyobin,San Francisco Shock,All Damage Done,12650.83525
+9/7/2019 2:03,ASSAULT,Horizon Lunar Colony,Choihyobin,San Francisco Shock,All Damage Done,14046.84501
+9/7/2019 2:23,PAYLOAD,Watchpoint: Gibraltar,Choihyobin,San Francisco Shock,All Damage Done,26597.96536
+9/7/2019 2:45,CONTROL,Lijiang Tower,Choihyobin,San Francisco Shock,All Damage Done,16057.29083
+9/7/2019 3:07,HYBRID,King's Row,Choihyobin,San Francisco Shock,All Damage Done,41866.2068
+9/7/2019 3:36,PAYLOAD,Rialto,Choihyobin,San Francisco Shock,All Damage Done,31058.49812
+9/8/2019 3:14,CONTROL,Busan,Choihyobin,San Francisco Shock,All Damage Done,30555.23615
+9/8/2019 3:36,HYBRID,Numbani,Choihyobin,San Francisco Shock,All Damage Done,25915.87687
+9/8/2019 4:10,ASSAULT,Horizon Lunar Colony,Choihyobin,San Francisco Shock,All Damage Done,13219.03332
+9/13/2019 1:11,CONTROL,Busan,Choihyobin,San Francisco Shock,All Damage Done,17380.2431
+9/13/2019 1:27,HYBRID,King's Row,Choihyobin,San Francisco Shock,All Damage Done,39370.38296
+9/13/2019 2:00,ASSAULT,Horizon Lunar Colony,Choihyobin,San Francisco Shock,All Damage Done,24246.49114
+9/13/2019 2:29,PAYLOAD,Rialto,Choihyobin,San Francisco Shock,All Damage Done,17210.8439
+9/14/2019 19:11,CONTROL,Busan,Choihyobin,San Francisco Shock,All Damage Done,25819.40738
+9/14/2019 19:32,HYBRID,King's Row,Choihyobin,San Francisco Shock,All Damage Done,33992.77177
+9/14/2019 20:09,ASSAULT,Temple of Anubis,Choihyobin,San Francisco Shock,All Damage Done,34040.34653
+9/14/2019 20:41,PAYLOAD,Dorado,Choihyobin,San Francisco Shock,All Damage Done,24608.19273
+9/15/2019 19:10,CONTROL,Lijiang Tower,Choihyobin,San Francisco Shock,All Damage Done,25252.37412
+9/15/2019 19:30,HYBRID,King's Row,Choihyobin,San Francisco Shock,All Damage Done,34389.35215
+9/15/2019 20:09,ASSAULT,Temple of Anubis,Choihyobin,San Francisco Shock,All Damage Done,39070.03553
+9/15/2019 20:45,PAYLOAD,Rialto,Choihyobin,San Francisco Shock,All Damage Done,14019.06156
+9/29/2019 19:14,CONTROL,Lijiang Tower,Choihyobin,San Francisco Shock,All Damage Done,16888.88523
+9/29/2019 19:32,HYBRID,Eichenwalde,Choihyobin,San Francisco Shock,All Damage Done,24457.40783
+9/29/2019 20:15,ASSAULT,Temple of Anubis,Choihyobin,San Francisco Shock,All Damage Done,26728.28685
+9/29/2019 20:47,PAYLOAD,Watchpoint: Gibraltar,Choihyobin,San Francisco Shock,All Damage Done,12236.83938
+9/7/2019 1:15,CONTROL,Busan,moth,San Francisco Shock,All Damage Done,11365.45687
+9/7/2019 1:35,HYBRID,Numbani,moth,San Francisco Shock,All Damage Done,5887.890064
+9/7/2019 2:03,ASSAULT,Horizon Lunar Colony,moth,San Francisco Shock,All Damage Done,6432.308419
+9/7/2019 2:23,PAYLOAD,Watchpoint: Gibraltar,moth,San Francisco Shock,All Damage Done,10803.41774
+9/7/2019 2:45,CONTROL,Lijiang Tower,moth,San Francisco Shock,All Damage Done,6892.109216
+9/7/2019 3:07,HYBRID,King's Row,moth,San Francisco Shock,All Damage Done,13978.71636
+9/7/2019 3:36,PAYLOAD,Rialto,moth,San Francisco Shock,All Damage Done,11582.1302
+9/8/2019 3:14,CONTROL,Busan,moth,San Francisco Shock,All Damage Done,10451.88525
+9/8/2019 3:36,HYBRID,Numbani,moth,San Francisco Shock,All Damage Done,8017.973215
+9/8/2019 4:10,ASSAULT,Horizon Lunar Colony,moth,San Francisco Shock,All Damage Done,4702.832942
+9/8/2019 4:30,PAYLOAD,Watchpoint: Gibraltar,moth,San Francisco Shock,All Damage Done,12342.25275
+9/13/2019 1:11,CONTROL,Busan,moth,San Francisco Shock,All Damage Done,5657.309232
+9/13/2019 1:27,HYBRID,King's Row,moth,San Francisco Shock,All Damage Done,11361.16094
+9/13/2019 2:00,ASSAULT,Horizon Lunar Colony,moth,San Francisco Shock,All Damage Done,7582.509404
+9/13/2019 2:29,PAYLOAD,Rialto,moth,San Francisco Shock,All Damage Done,5470.870286
+9/14/2019 19:11,CONTROL,Busan,moth,San Francisco Shock,All Damage Done,12536.04827
+9/14/2019 19:32,HYBRID,King's Row,moth,San Francisco Shock,All Damage Done,11809.31816
+9/14/2019 20:09,ASSAULT,Temple of Anubis,moth,San Francisco Shock,All Damage Done,12041.74465
+9/14/2019 20:41,PAYLOAD,Dorado,moth,San Francisco Shock,All Damage Done,7658.650129
+9/15/2019 19:10,CONTROL,Lijiang Tower,moth,San Francisco Shock,All Damage Done,10397.60124
+9/15/2019 19:30,HYBRID,King's Row,moth,San Francisco Shock,All Damage Done,9446.69782
+9/15/2019 20:09,ASSAULT,Temple of Anubis,moth,San Francisco Shock,All Damage Done,13231.73984
+9/15/2019 20:45,PAYLOAD,Rialto,moth,San Francisco Shock,All Damage Done,6861.495339
+9/29/2019 19:14,CONTROL,Lijiang Tower,moth,San Francisco Shock,All Damage Done,6743.361843
+9/29/2019 19:32,HYBRID,Eichenwalde,moth,San Francisco Shock,All Damage Done,2762.646819
+9/29/2019 20:15,ASSAULT,Temple of Anubis,moth,San Francisco Shock,All Damage Done,12572.08675
+9/29/2019 20:47,PAYLOAD,Watchpoint: Gibraltar,moth,San Francisco Shock,All Damage Done,3879.709599
+9/8/2019 4:30,PAYLOAD,Watchpoint: Gibraltar,Nevix,San Francisco Shock,All Damage Done,19694.69571
+9/7/2019 2:45,CONTROL,Lijiang Tower,Rascal,San Francisco Shock,All Damage Done,16842.64311
+9/8/2019 4:30,PAYLOAD,Watchpoint: Gibraltar,Rascal,San Francisco Shock,All Damage Done,18730.47119
+9/13/2019 2:29,PAYLOAD,Rialto,Rascal,San Francisco Shock,All Damage Done,28668.01441
+9/14/2019 20:41,PAYLOAD,Dorado,Rascal,San Francisco Shock,All Damage Done,31588.07609
+9/15/2019 20:45,PAYLOAD,Rialto,Rascal,San Francisco Shock,All Damage Done,19647.77121
+9/29/2019 19:32,HYBRID,Eichenwalde,Rascal,San Francisco Shock,All Damage Done,34509.41015
+9/29/2019 20:47,PAYLOAD,Watchpoint: Gibraltar,Rascal,San Francisco Shock,All Damage Done,26403.43312
+9/7/2019 1:15,CONTROL,Busan,sinatraa,San Francisco Shock,All Damage Done,16962.09806
+9/7/2019 1:35,HYBRID,Numbani,sinatraa,San Francisco Shock,All Damage Done,12673.83598
+9/7/2019 2:03,ASSAULT,Horizon Lunar Colony,sinatraa,San Francisco Shock,All Damage Done,10615.14042
+9/7/2019 2:23,PAYLOAD,Watchpoint: Gibraltar,sinatraa,San Francisco Shock,All Damage Done,16779.37801
+9/7/2019 2:45,CONTROL,Lijiang Tower,sinatraa,San Francisco Shock,All Damage Done,11407.72119
+9/7/2019 3:07,HYBRID,King's Row,sinatraa,San Francisco Shock,All Damage Done,24503.99037
+9/7/2019 3:36,PAYLOAD,Rialto,sinatraa,San Francisco Shock,All Damage Done,16164.34918
+9/8/2019 3:14,CONTROL,Busan,sinatraa,San Francisco Shock,All Damage Done,21873.25929
+9/8/2019 3:36,HYBRID,Numbani,sinatraa,San Francisco Shock,All Damage Done,18908.21084
+9/8/2019 4:10,ASSAULT,Horizon Lunar Colony,sinatraa,San Francisco Shock,All Damage Done,15989.67992
+9/13/2019 1:11,CONTROL,Busan,sinatraa,San Francisco Shock,All Damage Done,14334.80172
+9/13/2019 1:27,HYBRID,King's Row,sinatraa,San Francisco Shock,All Damage Done,24354.69161
+9/13/2019 2:00,ASSAULT,Horizon Lunar Colony,sinatraa,San Francisco Shock,All Damage Done,17476.64385
+9/14/2019 19:11,CONTROL,Busan,sinatraa,San Francisco Shock,All Damage Done,18211.44801
+9/14/2019 19:32,HYBRID,King's Row,sinatraa,San Francisco Shock,All Damage Done,22268.99699
+9/14/2019 20:09,ASSAULT,Temple of Anubis,sinatraa,San Francisco Shock,All Damage Done,22679.26628
+9/15/2019 19:10,CONTROL,Lijiang Tower,sinatraa,San Francisco Shock,All Damage Done,16999.53286
+9/15/2019 19:30,HYBRID,King's Row,sinatraa,San Francisco Shock,All Damage Done,24985.39544
+9/15/2019 20:09,ASSAULT,Temple of Anubis,sinatraa,San Francisco Shock,All Damage Done,29216.58594
+9/29/2019 19:14,CONTROL,Lijiang Tower,sinatraa,San Francisco Shock,All Damage Done,15926.57037
+9/29/2019 20:15,ASSAULT,Temple of Anubis,sinatraa,San Francisco Shock,All Damage Done,18906.11798
+9/7/2019 1:15,CONTROL,Busan,smurf,San Francisco Shock,All Damage Done,21049.67692
+9/7/2019 1:35,HYBRID,Numbani,smurf,San Francisco Shock,All Damage Done,11829.58615
+9/7/2019 2:03,ASSAULT,Horizon Lunar Colony,smurf,San Francisco Shock,All Damage Done,12045.23917
+9/7/2019 2:23,PAYLOAD,Watchpoint: Gibraltar,smurf,San Francisco Shock,All Damage Done,25618.80172
+9/7/2019 2:45,CONTROL,Lijiang Tower,smurf,San Francisco Shock,All Damage Done,13004.2576
+9/7/2019 3:07,HYBRID,King's Row,smurf,San Francisco Shock,All Damage Done,33005.49682
+9/7/2019 3:36,PAYLOAD,Rialto,smurf,San Francisco Shock,All Damage Done,22205.48208
+9/8/2019 3:14,CONTROL,Busan,smurf,San Francisco Shock,All Damage Done,26182.75442
+9/8/2019 3:36,HYBRID,Numbani,smurf,San Francisco Shock,All Damage Done,22445.24115
+9/8/2019 4:10,ASSAULT,Horizon Lunar Colony,smurf,San Francisco Shock,All Damage Done,12914.4057
+9/13/2019 1:11,CONTROL,Busan,smurf,San Francisco Shock,All Damage Done,16160.39085
+9/13/2019 1:27,HYBRID,King's Row,smurf,San Francisco Shock,All Damage Done,27456.38002
+9/13/2019 2:00,ASSAULT,Horizon Lunar Colony,smurf,San Francisco Shock,All Damage Done,16880.82324
+9/13/2019 2:29,PAYLOAD,Rialto,smurf,San Francisco Shock,All Damage Done,23307.32723
+9/14/2019 19:11,CONTROL,Busan,smurf,San Francisco Shock,All Damage Done,24276.314
+9/14/2019 19:32,HYBRID,King's Row,smurf,San Francisco Shock,All Damage Done,27893.44791
+9/14/2019 20:09,ASSAULT,Temple of Anubis,smurf,San Francisco Shock,All Damage Done,31577.62326
+9/14/2019 20:41,PAYLOAD,Dorado,smurf,San Francisco Shock,All Damage Done,31757.22928
+9/15/2019 19:10,CONTROL,Lijiang Tower,smurf,San Francisco Shock,All Damage Done,20040.95915
+9/15/2019 19:30,HYBRID,King's Row,smurf,San Francisco Shock,All Damage Done,28358.78797
+9/15/2019 20:09,ASSAULT,Temple of Anubis,smurf,San Francisco Shock,All Damage Done,31302.54167
+9/15/2019 20:45,PAYLOAD,Rialto,smurf,San Francisco Shock,All Damage Done,22664.68377
+9/29/2019 19:14,CONTROL,Lijiang Tower,smurf,San Francisco Shock,All Damage Done,14501.43882
+9/29/2019 19:32,HYBRID,Eichenwalde,smurf,San Francisco Shock,All Damage Done,23611.57859
+9/29/2019 20:15,ASSAULT,Temple of Anubis,smurf,San Francisco Shock,All Damage Done,22915.6045
+9/29/2019 20:47,PAYLOAD,Watchpoint: Gibraltar,smurf,San Francisco Shock,All Damage Done,21407.32588
+9/7/2019 1:15,CONTROL,Busan,STRIKER,San Francisco Shock,All Damage Done,31916.71027
+9/7/2019 1:35,HYBRID,Numbani,STRIKER,San Francisco Shock,All Damage Done,11732.6826
+9/7/2019 2:03,ASSAULT,Horizon Lunar Colony,STRIKER,San Francisco Shock,All Damage Done,19223.01616
+9/7/2019 2:23,PAYLOAD,Watchpoint: Gibraltar,STRIKER,San Francisco Shock,All Damage Done,29265.40993
+9/7/2019 3:07,HYBRID,King's Row,STRIKER,San Francisco Shock,All Damage Done,38064.15724
+9/7/2019 3:36,PAYLOAD,Rialto,STRIKER,San Francisco Shock,All Damage Done,28921.461
+9/8/2019 3:14,CONTROL,Busan,STRIKER,San Francisco Shock,All Damage Done,31491.1462
+9/8/2019 3:36,HYBRID,Numbani,STRIKER,San Francisco Shock,All Damage Done,39158.49066
+9/8/2019 4:10,ASSAULT,Horizon Lunar Colony,STRIKER,San Francisco Shock,All Damage Done,19366.71235
+9/13/2019 1:27,HYBRID,King's Row,STRIKER,San Francisco Shock,All Damage Done,39246.97014
+9/13/2019 2:00,ASSAULT,Horizon Lunar Colony,STRIKER,San Francisco Shock,All Damage Done,32712.00791
+9/14/2019 19:11,CONTROL,Busan,STRIKER,San Francisco Shock,All Damage Done,27777.58173
+9/14/2019 19:32,HYBRID,King's Row,STRIKER,San Francisco Shock,All Damage Done,34369.79214
+9/14/2019 20:09,ASSAULT,Temple of Anubis,STRIKER,San Francisco Shock,All Damage Done,30068.75712
+9/15/2019 19:10,CONTROL,Lijiang Tower,STRIKER,San Francisco Shock,All Damage Done,24218.34556
+9/15/2019 19:30,HYBRID,King's Row,STRIKER,San Francisco Shock,All Damage Done,34886.26006
+9/15/2019 20:09,ASSAULT,Temple of Anubis,STRIKER,San Francisco Shock,All Damage Done,38368.71736
+9/29/2019 19:14,CONTROL,Lijiang Tower,STRIKER,San Francisco Shock,All Damage Done,20230.26646
+9/29/2019 20:15,ASSAULT,Temple of Anubis,STRIKER,San Francisco Shock,All Damage Done,26973.0521
+9/8/2019 4:30,PAYLOAD,Watchpoint: Gibraltar,super,San Francisco Shock,All Damage Done,22238.94364
+9/7/2019 1:15,CONTROL,Busan,Viol2t,San Francisco Shock,All Damage Done,20183.45547
+9/7/2019 1:35,HYBRID,Numbani,Viol2t,San Francisco Shock,All Damage Done,8776.957164
+9/7/2019 2:03,ASSAULT,Horizon Lunar Colony,Viol2t,San Francisco Shock,All Damage Done,9617.354641
+9/7/2019 2:23,PAYLOAD,Watchpoint: Gibraltar,Viol2t,San Francisco Shock,All Damage Done,17632.21226
+9/7/2019 2:45,CONTROL,Lijiang Tower,Viol2t,San Francisco Shock,All Damage Done,12409.44668
+9/7/2019 3:07,HYBRID,King's Row,Viol2t,San Francisco Shock,All Damage Done,25484.62311
+9/7/2019 3:36,PAYLOAD,Rialto,Viol2t,San Francisco Shock,All Damage Done,19552.62595
+9/8/2019 3:14,CONTROL,Busan,Viol2t,San Francisco Shock,All Damage Done,20425.7839
+9/8/2019 3:36,HYBRID,Numbani,Viol2t,San Francisco Shock,All Damage Done,14452.41293
+9/8/2019 4:10,ASSAULT,Horizon Lunar Colony,Viol2t,San Francisco Shock,All Damage Done,4319.955434
+9/8/2019 4:30,PAYLOAD,Watchpoint: Gibraltar,Viol2t,San Francisco Shock,All Damage Done,12889.86408
+9/13/2019 1:11,CONTROL,Busan,Viol2t,San Francisco Shock,All Damage Done,9520.51869
+9/13/2019 1:27,HYBRID,King's Row,Viol2t,San Francisco Shock,All Damage Done,24664.01755
+9/13/2019 2:00,ASSAULT,Horizon Lunar Colony,Viol2t,San Francisco Shock,All Damage Done,11526.20689
+9/13/2019 2:29,PAYLOAD,Rialto,Viol2t,San Francisco Shock,All Damage Done,9621.907109
+9/14/2019 19:11,CONTROL,Busan,Viol2t,San Francisco Shock,All Damage Done,18799.33843
+9/14/2019 19:32,HYBRID,King's Row,Viol2t,San Francisco Shock,All Damage Done,22126.05492
+9/14/2019 20:09,ASSAULT,Temple of Anubis,Viol2t,San Francisco Shock,All Damage Done,23504.59225
+9/14/2019 20:41,PAYLOAD,Dorado,Viol2t,San Francisco Shock,All Damage Done,17311.8775
+9/15/2019 19:10,CONTROL,Lijiang Tower,Viol2t,San Francisco Shock,All Damage Done,16502.94831
+9/15/2019 19:30,HYBRID,King's Row,Viol2t,San Francisco Shock,All Damage Done,21516.56406
+9/15/2019 20:09,ASSAULT,Temple of Anubis,Viol2t,San Francisco Shock,All Damage Done,21796.38994
+9/15/2019 20:45,PAYLOAD,Rialto,Viol2t,San Francisco Shock,All Damage Done,10535.3306
+9/29/2019 19:14,CONTROL,Lijiang Tower,Viol2t,San Francisco Shock,All Damage Done,12073.67093
+9/29/2019 19:32,HYBRID,Eichenwalde,Viol2t,San Francisco Shock,All Damage Done,13679.70447
+9/29/2019 20:15,ASSAULT,Temple of Anubis,Viol2t,San Francisco Shock,All Damage Done,22631.22684
+9/29/2019 20:47,PAYLOAD,Watchpoint: Gibraltar,Viol2t,San Francisco Shock,All Damage Done,9699.332823
+9/8/2019 4:30,PAYLOAD,Watchpoint: Gibraltar,Architect,San Francisco Shock,Healing Done,1794.134861
+9/13/2019 1:11,CONTROL,Busan,Architect,San Francisco Shock,Healing Done,1461.531174
+9/13/2019 2:29,PAYLOAD,Rialto,Architect,San Francisco Shock,Healing Done,2592.355822
+9/14/2019 20:41,PAYLOAD,Dorado,Architect,San Francisco Shock,Healing Done,2138.272553
+9/15/2019 20:45,PAYLOAD,Rialto,Architect,San Francisco Shock,Healing Done,894.0435108
+9/29/2019 19:32,HYBRID,Eichenwalde,Architect,San Francisco Shock,Healing Done,560.2548853
+9/29/2019 20:47,PAYLOAD,Watchpoint: Gibraltar,Architect,San Francisco Shock,Healing Done,1488.242837
+9/29/2019 20:15,ASSAULT,Temple of Anubis,Choihyobin,San Francisco Shock,Healing Done,5.459999561
+9/7/2019 1:15,CONTROL,Busan,moth,San Francisco Shock,Healing Done,13992.6161
+9/7/2019 1:35,HYBRID,Numbani,moth,San Francisco Shock,Healing Done,7514.870898
+9/7/2019 2:03,ASSAULT,Horizon Lunar Colony,moth,San Francisco Shock,Healing Done,9661.091823
+9/7/2019 2:23,PAYLOAD,Watchpoint: Gibraltar,moth,San Francisco Shock,Healing Done,15053.14733
+9/7/2019 2:45,CONTROL,Lijiang Tower,moth,San Francisco Shock,Healing Done,9360.577556
+9/7/2019 3:07,HYBRID,King's Row,moth,San Francisco Shock,Healing Done,17376.59349
+9/7/2019 3:36,PAYLOAD,Rialto,moth,San Francisco Shock,Healing Done,12060.10304
+9/8/2019 3:14,CONTROL,Busan,moth,San Francisco Shock,Healing Done,14653.22958
+9/8/2019 3:36,HYBRID,Numbani,moth,San Francisco Shock,Healing Done,11860.10986
+9/8/2019 4:10,ASSAULT,Horizon Lunar Colony,moth,San Francisco Shock,Healing Done,9830.822019
+9/8/2019 4:30,PAYLOAD,Watchpoint: Gibraltar,moth,San Francisco Shock,Healing Done,11406.42853
+9/13/2019 1:11,CONTROL,Busan,moth,San Francisco Shock,Healing Done,6069.442284
+9/13/2019 1:27,HYBRID,King's Row,moth,San Francisco Shock,Healing Done,14613.12141
+9/13/2019 2:00,ASSAULT,Horizon Lunar Colony,moth,San Francisco Shock,Healing Done,9981.847215
+9/13/2019 2:29,PAYLOAD,Rialto,moth,San Francisco Shock,Healing Done,16662.19716
+9/14/2019 19:11,CONTROL,Busan,moth,San Francisco Shock,Healing Done,15235.45989
+9/14/2019 19:32,HYBRID,King's Row,moth,San Francisco Shock,Healing Done,12648.69739
+9/14/2019 20:09,ASSAULT,Temple of Anubis,moth,San Francisco Shock,Healing Done,15084.20588
+9/14/2019 20:41,PAYLOAD,Dorado,moth,San Francisco Shock,Healing Done,17509.73979
+9/15/2019 19:10,CONTROL,Lijiang Tower,moth,San Francisco Shock,Healing Done,8743.882066
+9/15/2019 19:30,HYBRID,King's Row,moth,San Francisco Shock,Healing Done,10964.20466
+9/15/2019 20:09,ASSAULT,Temple of Anubis,moth,San Francisco Shock,Healing Done,15202.58031
+9/15/2019 20:45,PAYLOAD,Rialto,moth,San Francisco Shock,Healing Done,10978.4253
+9/29/2019 19:14,CONTROL,Lijiang Tower,moth,San Francisco Shock,Healing Done,9476.441426
+9/29/2019 19:32,HYBRID,Eichenwalde,moth,San Francisco Shock,Healing Done,17741.83743
+9/29/2019 20:15,ASSAULT,Temple of Anubis,moth,San Francisco Shock,Healing Done,15693.40067
+9/29/2019 20:47,PAYLOAD,Watchpoint: Gibraltar,moth,San Francisco Shock,Healing Done,12849.60978
+9/7/2019 2:45,CONTROL,Lijiang Tower,Rascal,San Francisco Shock,Healing Done,2077.411703
+9/8/2019 4:30,PAYLOAD,Watchpoint: Gibraltar,Rascal,San Francisco Shock,Healing Done,750.2304828
+9/13/2019 2:29,PAYLOAD,Rialto,Rascal,San Francisco Shock,Healing Done,548.8259783
+9/14/2019 20:41,PAYLOAD,Dorado,Rascal,San Francisco Shock,Healing Done,670.8222155
+9/15/2019 20:45,PAYLOAD,Rialto,Rascal,San Francisco Shock,Healing Done,470.8076362
+9/29/2019 19:32,HYBRID,Eichenwalde,Rascal,San Francisco Shock,Healing Done,413.3694198
+9/29/2019 20:47,PAYLOAD,Watchpoint: Gibraltar,Rascal,San Francisco Shock,Healing Done,400.1659759
+9/8/2019 3:14,CONTROL,Busan,sinatraa,San Francisco Shock,Healing Done,419.9620162
+9/8/2019 3:36,HYBRID,Numbani,sinatraa,San Francisco Shock,Healing Done,64.99999857
+9/8/2019 4:10,ASSAULT,Horizon Lunar Colony,sinatraa,San Francisco Shock,Healing Done,26.39399099
+9/13/2019 2:00,ASSAULT,Horizon Lunar Colony,sinatraa,San Francisco Shock,Healing Done,141.9895037
+9/14/2019 19:32,HYBRID,King's Row,sinatraa,San Francisco Shock,Healing Done,54.4000122
+9/15/2019 20:09,ASSAULT,Temple of Anubis,sinatraa,San Francisco Shock,Healing Done,801.3195267
+9/29/2019 20:15,ASSAULT,Temple of Anubis,sinatraa,San Francisco Shock,Healing Done,25.57692409
+9/7/2019 1:15,CONTROL,Busan,STRIKER,San Francisco Shock,Healing Done,2052.684108
+9/7/2019 1:35,HYBRID,Numbani,STRIKER,San Francisco Shock,Healing Done,874.1958399
+9/7/2019 2:03,ASSAULT,Horizon Lunar Colony,STRIKER,San Francisco Shock,Healing Done,844.1526303
+9/7/2019 2:23,PAYLOAD,Watchpoint: Gibraltar,STRIKER,San Francisco Shock,Healing Done,2241.779737
+9/7/2019 3:07,HYBRID,King's Row,STRIKER,San Francisco Shock,Healing Done,2952.890731
+9/7/2019 3:36,PAYLOAD,Rialto,STRIKER,San Francisco Shock,Healing Done,2356.123326
+9/8/2019 3:14,CONTROL,Busan,STRIKER,San Francisco Shock,Healing Done,2802.132668
+9/8/2019 3:36,HYBRID,Numbani,STRIKER,San Francisco Shock,Healing Done,1559.017026
+9/8/2019 4:10,ASSAULT,Horizon Lunar Colony,STRIKER,San Francisco Shock,Healing Done,1062.278232
+9/13/2019 1:27,HYBRID,King's Row,STRIKER,San Francisco Shock,Healing Done,3205.361261
+9/13/2019 2:00,ASSAULT,Horizon Lunar Colony,STRIKER,San Francisco Shock,Healing Done,1526.908907
+9/14/2019 19:11,CONTROL,Busan,STRIKER,San Francisco Shock,Healing Done,2443.242289
+9/14/2019 19:32,HYBRID,King's Row,STRIKER,San Francisco Shock,Healing Done,2789.927785
+9/14/2019 20:09,ASSAULT,Temple of Anubis,STRIKER,San Francisco Shock,Healing Done,2919.461736
+9/15/2019 19:10,CONTROL,Lijiang Tower,STRIKER,San Francisco Shock,Healing Done,1782.724291
+9/15/2019 19:30,HYBRID,King's Row,STRIKER,San Francisco Shock,Healing Done,2875.977215
+9/15/2019 20:09,ASSAULT,Temple of Anubis,STRIKER,San Francisco Shock,Healing Done,3097.543689
+9/29/2019 19:14,CONTROL,Lijiang Tower,STRIKER,San Francisco Shock,Healing Done,1642.81597
+9/29/2019 20:15,ASSAULT,Temple of Anubis,STRIKER,San Francisco Shock,Healing Done,1914.875568
+9/7/2019 1:15,CONTROL,Busan,Viol2t,San Francisco Shock,Healing Done,26996.03421
+9/7/2019 1:35,HYBRID,Numbani,Viol2t,San Francisco Shock,Healing Done,11432.96613
+9/7/2019 2:03,ASSAULT,Horizon Lunar Colony,Viol2t,San Francisco Shock,Healing Done,12888.4805
+9/7/2019 2:23,PAYLOAD,Watchpoint: Gibraltar,Viol2t,San Francisco Shock,Healing Done,27434.44186
+9/7/2019 2:45,CONTROL,Lijiang Tower,Viol2t,San Francisco Shock,Healing Done,16227.20222
+9/7/2019 3:07,HYBRID,King's Row,Viol2t,San Francisco Shock,Healing Done,35991.17985
+9/7/2019 3:36,PAYLOAD,Rialto,Viol2t,San Francisco Shock,Healing Done,23977.42176
+9/8/2019 3:14,CONTROL,Busan,Viol2t,San Francisco Shock,Healing Done,22979.30085
+9/8/2019 3:36,HYBRID,Numbani,Viol2t,San Francisco Shock,Healing Done,17193.66039
+9/8/2019 4:10,ASSAULT,Horizon Lunar Colony,Viol2t,San Francisco Shock,Healing Done,8354.795454
+9/8/2019 4:30,PAYLOAD,Watchpoint: Gibraltar,Viol2t,San Francisco Shock,Healing Done,10406.94333
+9/13/2019 1:11,CONTROL,Busan,Viol2t,San Francisco Shock,Healing Done,13072.48176
+9/13/2019 1:27,HYBRID,King's Row,Viol2t,San Francisco Shock,Healing Done,31207.43642
+9/13/2019 2:00,ASSAULT,Horizon Lunar Colony,Viol2t,San Francisco Shock,Healing Done,15365.13253
+9/13/2019 2:29,PAYLOAD,Rialto,Viol2t,San Francisco Shock,Healing Done,15612.15051
+9/14/2019 19:11,CONTROL,Busan,Viol2t,San Francisco Shock,Healing Done,26117.37582
+9/14/2019 19:32,HYBRID,King's Row,Viol2t,San Francisco Shock,Healing Done,26951.61827
+9/14/2019 20:09,ASSAULT,Temple of Anubis,Viol2t,San Francisco Shock,Healing Done,32110.28675
+9/14/2019 20:41,PAYLOAD,Dorado,Viol2t,San Francisco Shock,Healing Done,20049.78557
+9/15/2019 19:10,CONTROL,Lijiang Tower,Viol2t,San Francisco Shock,Healing Done,20725.73969
+9/15/2019 19:30,HYBRID,King's Row,Viol2t,San Francisco Shock,Healing Done,30657.24271
+9/15/2019 20:09,ASSAULT,Temple of Anubis,Viol2t,San Francisco Shock,Healing Done,32433.73182
+9/15/2019 20:45,PAYLOAD,Rialto,Viol2t,San Francisco Shock,Healing Done,11939.29063
+9/29/2019 19:14,CONTROL,Lijiang Tower,Viol2t,San Francisco Shock,Healing Done,14728.54138
+9/29/2019 19:32,HYBRID,Eichenwalde,Viol2t,San Francisco Shock,Healing Done,19203.60758
+9/29/2019 20:15,ASSAULT,Temple of Anubis,Viol2t,San Francisco Shock,Healing Done,28164.61523
+9/29/2019 20:47,PAYLOAD,Watchpoint: Gibraltar,Viol2t,San Francisco Shock,Healing Done,15463.54272
