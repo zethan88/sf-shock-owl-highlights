@@ -11,7 +11,7 @@ const svg = d3.select("#timeline")
 
 const parseTime = d3.timeParse("%b/%d/%y");
 
-var div = d3.select("body").append("div")
+const div = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 

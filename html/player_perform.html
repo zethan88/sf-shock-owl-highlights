@@ -4,6 +4,20 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<style>
+    div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 100px;
+        height: 20px;
+        padding: 2px;
+        background: gray;
+        border: 0px;
+        border-radius: 8px;
+        pointer-events: none;
+        font-size: 12px;
+    }
+</style>
 <html>
 <head>
     <title>Player Performances</title>
@@ -28,28 +42,47 @@
 
         <!-- Content -->
         <section id="content" class="main">
-            <span class="image main"><img src="../images/shock_wave.jpg" alt="" /></span>
+            <!--<span class="image main"><img src="../images/shock_wave.jpg" alt="" /></span>-->
             <h2>Player Performances</h2>
             <p>
-                Below are each visualization of the San Francisco Shock player's performance during the 2019
-                Playoffs.
+                A player's performance can be perceived on various statistical measurements used in game. But
+                a consistent use of measurement across all players is the amount of their damage and/or healing
+                done. Every hero can inflict damage onto an opponent, but not all heroes can heal themselves or
+                their teammates. Specifically, only players with the Support hero role can be able to heal their
+                teammates. Healing is a vital source of keeping your team alive in the fight, so measuring a Support
+                player's healing output along with their damage output, really defines a player's role and performance.
+                Below are each of the San Francisco Shock players' performances during the 2019 Playoffs based
+                on the sum of all damage done and healing done.
             </p>
+            <div id="perform" class="align-center"></div>
             <!--replace later-->
-            <iframe title="Player Performance Based on Sum of Damage &amp;amp; Healing Done"
+            <!--<iframe title="Player Performance Based on Sum of Damage &amp;amp; Healing Done"
                     aria-label="Split Bars" id="datawrapper-chart-qdg09"
                     src="https://datawrapper.dwcdn.net/qdg09/1/" scrolling="no" frameborder="0"
                     style="width: 0; min-width: 100% !important; border: none;" height="628">
             </iframe>
             <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+            -->
+            <p style="font-size: 12px">*Reload page for graph animation. Hover over bars for exact values.</p>
             <p>
                 This bar chart displays the players' performance based on the sum of damage done
                 and healing done. Right of the bat, two players with high damage done and healing done are
-                Choihyobin and Viol2t, respectively. It can be clearly deduced that the tank duo Choihyobin and smurf
-                display a massive amount of damage output as front-liners. And the coming second pair,
-                STRIKER and Viol2t, display their output of damage as DPS and Flex roles, respectively.
-                Onto healing done, the clear main support duo are moth and Viol2t, with Viol2t leading
-                the amount of healing output. This graph also signifies Viol2t's excellent performance:
-                second in damage done and top in healing done.
+                Choihyobin and Viol2t, respectively. It can be clearly deduced that the Tank role duo Choihyobin
+                and smurf present massive amounts of damage output as front-lining Tanks. Their role to
+                keep the team moving and alive in both defending and attacking is vital to a team's success.
+                The next pair, STRIKER and Viol2t, present their output of damage as Damage and Flex roles,
+                respectively. Usually Damage roles output very high damage, they still contribute to the
+                team in applying flanks and aggression on the enemy as well as finishing off enemies. Expected of
+                their high eliminations, but secondary for their damage done.
+                Onto healing done, the clear main Support duo are moth and Viol2t, with Viol2t leading the
+                highest amount of healing output and moth coming second of the highest healing output. Noted that
+                Choihyobin has nearly a zero healing done, which to be fair, his main role is Tank, but it can be
+                assumed he has some healing done due to switching to a support hero for emergency.
+                This graph also signifies Viol2t's excellent performance: second in damage done and top in healing
+                done.<br>
+                <br>Overall, the San Francisco Shock's players' performance can still be defined by many other
+                measures and factors, in reporting these ones, still captures the San Francisco Shock's
+                strength and domination in the season.
             </p>
         </section>
 
@@ -66,15 +99,13 @@
             <h2>Created By Ethan Zhou</h2>
             <dl class="alt">
                 <dt>Email</dt>
-                <dd><a href="#">zethan88@gmail.com</a></dd>
+                <dd><a href="mailto: zethan88@gmail.com">zethan88@gmail.com</a></dd>
                 <dt>Github</dt>
                 <dd><a href="https://github.com/zethan88/sf-shock-owl-highlights">Repository</a></dd>
             </dl>
             <ul class="icons">
-                <li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+                <li><a href="https://www.facebook.com/ethan.zhou.50596/" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+                <li><a href="https://github.com/zethan88" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
             </ul>
         </section>
         <section>
@@ -97,6 +128,11 @@
 <script src="../assets/js/breakpoints.min.js"></script>
 <script src="../assets/js/util.js"></script>
 <script src="../assets/js/main.js"></script>
+
+<!--Player Perform Scripts-->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.13.0/d3-legend.js"></script>
+<script src="../assets/js/playerPerform.js"></script>
 
 </body>
 </html>
