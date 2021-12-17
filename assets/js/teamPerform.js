@@ -2,6 +2,7 @@ const margin = {top: 50, right: 110, bottom: 50, left: 110},
     width = 1300 - margin.left - margin.right,
     height = 600 - margin.left - margin.right;
 
+//svg div element on HTML
 const svg = d3.select("#teamperform")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -13,7 +14,9 @@ const div = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
+//load data for use
 d3.csv("../data/grand_finals_data_obj_time.csv").then(function (data) {
+    //x scale
     const xScale = d3.scaleLinear()
         .range([0, width])
         .domain([0, 1200]);
@@ -21,6 +24,7 @@ d3.csv("../data/grand_finals_data_obj_time.csv").then(function (data) {
         .attr("transform", `translate(0, ${height - 23.75})`)
         .call(d3.axisBottom(xScale));
 
+    //y scale setup
     const teamRange = [0, 47.5, 95, 142.5, 190, 237.5, 285, 332.5];
     const teams = d3.map(data, d => d.team);
     const yScale = d3.scaleOrdinal()
@@ -31,6 +35,7 @@ d3.csv("../data/grand_finals_data_obj_time.csv").then(function (data) {
         .selectAll("text")
         .text((team) => team.substr(1));
 
+    //draw lines
     svg.selectAll(".line")
         .data(data)
         .enter()
@@ -41,6 +46,7 @@ d3.csv("../data/grand_finals_data_obj_time.csv").then(function (data) {
         .attr("y2", d => yScale([0, 47.5, 95, 142.5, 190, 237.5, 285, 332.5]))
         .attr("stroke", "grey");
 
+    //plot dots
     svg.selectAll(".circle")
         .data(data)
         .enter()
@@ -50,6 +56,7 @@ d3.csv("../data/grand_finals_data_obj_time.csv").then(function (data) {
         .attr("r", "4.5")
         .style("fill", "#FC4C02");
 
+    //labels and titles
     svg.selectAll(".labels")
         .data(data)
         .enter()

@@ -3,10 +3,11 @@ const margin = {top: 10, right: 100, bottom: 50, left: 100},
     height = 1200 - margin.left - margin.right,
     pad = 0.2;
 
+//x and y scales
 const x = d3.scale.linear().range([0, width]);
 const y0 = d3.scale.ordinal();
 
-//var color = d3.scale.category20c();
+//set of heroes
 const heroSet = ["Ana", "Bastion", "Baptiste", "Brigitte", "D.Va",
     "Doomfist", "Genji", "Hanzo", "Junkrat",
     "Lucio", "McCree", "Mei", "Mercy",
@@ -15,6 +16,8 @@ const heroSet = ["Ana", "Bastion", "Baptiste", "Brigitte", "D.Va",
     "Sombra", "Symmetra", "Torbjorn", "Tracer",
     "Widowmaker", "Winston", "Wrecking Ball", "Zarya",
     "Zenyatta"];
+
+//color scale
 const color = d3.scale.ordinal()
     .range(["#718ab3", "#7c8f7b", "#00FFFF", "#be736e", "#ed93c7",
         "#815049", "#97ef43", "#b9b48a", "#ecbd53",
@@ -26,18 +29,20 @@ const color = d3.scale.ordinal()
         "#ede582"])
     .domain(heroSet);
 
+//y axis
 const yAxis = d3.svg.axis()
     .scale(y0)
     .orient("left")
     .tickSize(-width);
 
+//x axis
 const xAxis = d3.svg.axis()
     .scale(x)
     .orient("bottom")
     .ticks(10)
     .tickFormat(d3.format(".0%"));
 
-
+//svg element
 const svg = d3.select("#heroUsage")
     .append("svg")
     .attr("width", width + margin.right + margin.left + 100)
@@ -53,6 +58,7 @@ const div = d3.select("body").append("div")
 // This moves the SVG over by m.left(110)
 // and down by m.top (10)
 
+//load data for use
 d3.csv("../data/sf_shock_data_time_played(percent).csv", function(error, data) {
 
     data.forEach(function(d) {
@@ -87,6 +93,7 @@ d3.csv("../data/sf_shock_data_time_played(percent).csv", function(error, data) {
         return d.percent;
     })]);
 
+    //modify titles
     svg.append("g")
         .attr("class", "x axis")
         .attr("transform", "translate(0," + height + ")")
@@ -103,7 +110,7 @@ d3.csv("../data/sf_shock_data_time_played(percent).csv", function(error, data) {
         .style("text-anchor", "end")
         .text(d => d + "————");
 
-
+    //add bars
     svg.selectAll("bar")
         .data(data)
         .enter().append("rect")
@@ -148,6 +155,7 @@ d3.csv("../data/sf_shock_data_time_played(percent).csv", function(error, data) {
                 .style("opacity", 0);
         });
 
+    //add labels
     var ls = svg.selectAll(".labels")
         .data(data)
         .enter().append("g");

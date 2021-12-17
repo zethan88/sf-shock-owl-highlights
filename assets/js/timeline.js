@@ -2,6 +2,7 @@ const margin = {top: 100, right: 30, bottom: 100, left: 30},
     width = 1000 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
+//svg element
 const svg = d3.select("#timeline")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -9,30 +10,33 @@ const svg = d3.select("#timeline")
     .append("g")
     .attr("transform",`translate(${margin.left},${margin.top})`);
 
+//time formatting
 const parseTime = d3.timeParse("%b/%d/%y");
 
 const div = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
+//load data for use
 d3.csv("../data/sf_shock_data_full_record.csv").then(function (data) {
 
     data.forEach(function (d) {
         d.Date = parseTime(d.date)
     });
 
+    //x scale
     let xScale = d3.scaleBand()
         .range([0, width])
         .domain(d3.map(data, function (d) {return d.date;}))
         .padding(0.09999)
 
+    //call axis, ticks, and labels
     svg.append("g")
         .attr("transform", `translate(0, ${height/2})`)
         .call(d3.axisBottom(xScale)
             .tickValues([])
         )
         .selectAll("text")
-            //.attr("transform", "translate(0," + 100 + ")")
             .style("text-anchor", "end")
             .attr("dx", "-0.8em")
             .attr("dy", "-0.5em")
@@ -40,6 +44,7 @@ d3.csv("../data/sf_shock_data_full_record.csv").then(function (data) {
 
     console.log(d3.map(data, function (d) {return d.date}));
 
+    //y scale
     let yScale = d3.scaleLinear()
         .range([height, 0])
         .domain(d3.extent(data, function (d) {return d.team1Score;}));
@@ -97,7 +102,7 @@ d3.csv("../data/sf_shock_data_full_record.csv").then(function (data) {
                 .style("opacity", 0);
         });
 
-    //sf scores
+    //sf shock scores
     svg.append("g")
         .selectAll(".bar")
         .data(data)

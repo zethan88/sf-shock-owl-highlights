@@ -2,6 +2,7 @@ const margin = {top: 50, right: 60, bottom: 50, left: 60},
     width = 1200 - margin.left - margin.right,
     height = 800 - margin.left - margin.right;
 
+//svg div element on HTML
 const svg = d3.select("#perform")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -13,11 +14,14 @@ const div = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
+//load data for use
 d3.csv("../data/sf_shock_data_player_perform_sum.csv").then(function (data) {
+    //color scale
     const colorScale = d3.scaleOrdinal()
         .range(["#FC4C02", "#75787B"])
         .domain(["All Damage Done", "Healing Done"]);
 
+    //x scale
     const xScale = d3.scaleLinear()
         .range([0, width])
         .domain([0, d3.max(data, d => d.stat_amount)]);
@@ -29,7 +33,7 @@ d3.csv("../data/sf_shock_data_player_perform_sum.csv").then(function (data) {
         .call(d3.axisBottom(xScale))
         .append("text");
 
-    //for damage
+    //y scale for damage done
     const yScale1 = d3.scaleOrdinal()
         .range([0, 40, 80, 120, 160, 200, 240, 280, 320, 360, 400])
         .domain(d3.map(data, function (d) {
@@ -41,7 +45,7 @@ d3.csv("../data/sf_shock_data_player_perform_sum.csv").then(function (data) {
         .call(d3.axisLeft(yScale1).tickFormat(function (d) {return d;}))
         .attr('stroke-width', 0)
 
-    //for heal
+    //y scale for healing done
     const yScale2 = d3.scaleOrdinal()
         .range([0, 400, 440, 480, 520, 560, 600, 640, 680])
         .domain(d3.map(data, function (d) {
@@ -59,7 +63,7 @@ d3.csv("../data/sf_shock_data_player_perform_sum.csv").then(function (data) {
     console.log(d3.map(data, function (d) {
         if (d.stat_name === "Healing Done") {return d.player;}}));
 
-    //add bars for damage
+    //add bars for damage done
     svg.append("g")
         .selectAll(".bar")
         .data(data)
@@ -89,7 +93,7 @@ d3.csv("../data/sf_shock_data_player_perform_sum.csv").then(function (data) {
                 .style("opacity", 0);
         });
 
-    //add bars for healing
+    //add bars for healing done
     svg.append("g")
         .selectAll(".bar")
         .data(data)
@@ -119,6 +123,7 @@ d3.csv("../data/sf_shock_data_player_perform_sum.csv").then(function (data) {
                 .style("opacity", 0);
         });
 
+    //bar1 id for different bars, this one applies to damage done bars
     svg.selectAll("rect[id='bar1']")
         .transition()
         .duration(800)
@@ -127,6 +132,7 @@ d3.csv("../data/sf_shock_data_player_perform_sum.csv").then(function (data) {
             if (d.stat_name === "All Damage Done") {return xScale(d.stat_amount);}})
         .delay(function(d,i){console.log(i) ; return(i*100)});
 
+    //bar2 id for healing done bars
     svg.selectAll("rect[id='bar2']")
         .transition()
         .duration(800)
@@ -135,6 +141,7 @@ d3.csv("../data/sf_shock_data_player_perform_sum.csv").then(function (data) {
             if (d.stat_name === "Healing Done") {return xScale(d.stat_amount);}})
         .delay(function(d,i){console.log(i) ; return(i*100)});
 
+    //adding titles
     svg.append("g")
         .append("text")
         .style("text-anchor", "end")
@@ -176,6 +183,7 @@ d3.csv("../data/sf_shock_data_player_perform_sum.csv").then(function (data) {
         .attr("class", "legend")
         .attr("transform", "translate(480,-50)");
 
+    //legend box
     const legend = d3.legendColor()
         .shapeWidth(30)
         .cells(2)
